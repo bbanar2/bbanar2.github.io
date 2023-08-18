@@ -7,12 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-<pre>
-.post-title {
-  <!-- margin: 0 0 5px; -->
-  <!-- font-weight: bold; -->
-  font-size: 38px;
   
 Hello! I am a PhD Candidate (Comp. Sci.) at the [Centre for Doctoral Training in AI and Music](https://www.aim.qmul.ac.uk/) (AIM CDT) and the [Centre for Digital Music](https://c4dm.eecs.qmul.ac.uk/) (C4DM) at [Queen Mary University of London](http://eecs.qmul.ac.uk/) (QMUL), and also an Enrichment Student at the [Alan Turing Institute](https://www.turing.ac.uk/). 
 
@@ -35,6 +29,3 @@ Machine Learning, Deep Learning, Generative AI, Optimisation, Computational Crea
 An interesting fact :) - My academic family tree follows as [Alan Bundy](https://en.wikipedia.org/wiki/Alan_Bundy), [Reuben Goodstein](https://en.wikipedia.org/wiki/Reuben_Goodstein), [Ludwig Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein) and [Bertrand Russell](https://en.wikipedia.org/wiki/Bertrand_Russell)!
 
 For more info, please see my CV.
-
-}
-</pre>
