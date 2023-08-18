@@ -10,11 +10,9 @@ redirect_from:
   
 Hello! I am a PhD Candidate (Comp. Sci.) at the [Centre for Doctoral Training in AI and Music](https://www.aim.qmul.ac.uk/) (AIM CDT) and the [Centre for Digital Music](https://c4dm.eecs.qmul.ac.uk/) (C4DM) at [Queen Mary University of London](http://eecs.qmul.ac.uk/) (QMUL), and also an Enrichment Student at the [Alan Turing Institute](https://www.turing.ac.uk/). 
 
-My PhD focuses on ‘Composing Contemporary Classical Music using Generative Deep Learning’ under the supervision of [Simon Colton](https://scholar.google.com/citations?user=L6GPVfcAAAAJ) to enhance human creativity and enable new aesthetics.
+My PhD focuses on ‘Composing Contemporary Classical Music using Generative Deep Learning’ under the supervision of [Simon Colton](https://scholar.google.com/citations?user=L6GPVfcAAAAJ) to enhance human and machine creativity and enable new aesthetics.
 
-I've worked at [Sony](https://www.sony.com/en/SonyInfo/research/research-areas/ai-machine_learning/) and [Bose](https://www.bose.com/en_us/index.html) as a Research Scientist Intern, and at [Northwestern University Metamaterials and Nanophotonic Devices Lab](http://users.eecs.northwestern.edu/~aydin/MNDL/Home.html) as a Nanophotonics Researcher. 
-
-I hold a BS in [Electrical and Electronics Engineering from Bilkent University](https://ee.bilkent.edu.tr/en/), Ankara, Turkey and a BM in [Electronic Production and Design from Berklee College of Music](https://college.berklee.edu/electronic-production-design), Boston, MA.
+I've worked at [Sony](https://www.sony.com/en/SonyInfo/research/research-areas/ai-machine_learning/) and [Bose](https://www.bose.com/en_us/index.html) as a Research Scientist Intern, and at [Northwestern University Metamaterials and Nanophotonic Devices Lab](http://users.eecs.northwestern.edu/~aydin/MNDL/Home.html) as a Nanophotonics Researcher. I hold a BS in [Electrical and Electronics Engineering from Bilkent University](https://ee.bilkent.edu.tr/en/), Ankara, Turkey and a BM in [Electronic Production and Design from Berklee College of Music](https://college.berklee.edu/electronic-production-design), Boston, MA.
 
 I've published at the top venues in the field such as AAAI, ICASSP, NeurIPS (workshops), ICLR (workshops), EvoMUSART, ICCC, IEEE MMSP and IEEE CAI, and in journals such as Machine Intelligence Research, Applied Physics Letters and Optical Materials Express. Also, I've contributed to a book chapter on Explainable AI for Arts and Music (to be published by Taylor & Francis). 
 
