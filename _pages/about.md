@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
   
-Hello! :wave: I am a PhD Candidate (Comp. Sci.) at the [Centre for Doctoral Training in AI and Music](https://www.aim.qmul.ac.uk/) (AIM CDT) and the [Centre for Digital Music](https://c4dm.eecs.qmul.ac.uk/) (C4DM) at [Queen Mary University of London](http://eecs.qmul.ac.uk/) (QMUL), and also an Enrichment Student at the [Alan Turing Institute](https://www.turing.ac.uk/). 
+Hello! I am a PhD Candidate (Comp. Sci.) at the [Centre for Doctoral Training in AI and Music](https://www.aim.qmul.ac.uk/) (AIM CDT) and the [Centre for Digital Music](https://c4dm.eecs.qmul.ac.uk/) (C4DM) at [Queen Mary University of London](http://eecs.qmul.ac.uk/) (QMUL), and also an Enrichment Student at the [Alan Turing Institute](https://www.turing.ac.uk/). 
 
 My PhD focuses on ‘Composing Contemporary Classical Music using Generative Deep Learning’ under the supervision of [Simon Colton](https://scholar.google.com/citations?user=L6GPVfcAAAAJ) to enhance human creativity and enable new aesthetics.
 
