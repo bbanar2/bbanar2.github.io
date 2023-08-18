@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Berker Banar"
 title_separator          : "-"
 name                     : &name "Berker Banar"
 description              : &description "personal description"
