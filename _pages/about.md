@@ -9,12 +9,12 @@ redirect_from:
   - /about.html
 ---
   
-Hello! I am a researcher working at the intersection of Generative AI, AI for Science and Deep Creative Decision-making for the AI & Robotics Institute at [Ellison Institute of Technology Oxford](https://www.eit.org/), pushing beyond the boundaries of both utilitarian and aesthetics-related tasks. 
+Hello! I am a Researcher at [Ellison Institute of Technology Oxford](https://www.eit.org/) (AI & Robotics Institute), working at the intersection of Generative AI, AI for Science and Deep Creative Decision-making, pushing beyond the boundaries of both utilitarian and aesthetics-related tasks. 
 
 I am fundamentally interested in the nature of creativity and creative intelligence through the lenses of information theory, optimization and generative modelling.
 
 <details>
-<summary><strong>Full Bio</strong></summary>
+<summary><strong>Research & Background</strong></summary>
 
 <p>I’ve obtained my PhD in Computer Science from <a href="http://eecs.qmul.ac.uk/">Queen Mary University of London</a> (QMUL) in 2025, as part of the <a href="https://www.aim.qmul.ac.uk/">Centre for Doctoral Training in AI and Music</a> (AIM CDT) and the <a href="https://c4dm.eecs.qmul.ac.uk/">Centre for Digital Music</a> (C4DM). My doctoral research, supervised by <a href="https://scholar.google.com/citations?user=L6GPVfcAAAAJ">Simon Colton</a>, focused on "Composing Contemporary Classical Music Using Generative Deep Learning.", where I enhanced both machine and human creativity by empowering machines for creative decision-making, while also exploring new aesthetics and challenging entrenched practices in deep learning.</p>
 
