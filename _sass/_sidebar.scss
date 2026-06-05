@@ -83,12 +83,13 @@
   }
 
   img {
-    max-width: 175px;
+    max-width: 250px;
     border-radius: 50%;
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      border: 2px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
     }
   }
 }
@@ -118,7 +119,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-size: $type-size-3;
 }
 
 .author__bio {
@@ -218,6 +219,8 @@
 
   li {
     white-space: nowrap;
+    display: inline-block;
+    margin-right: 5px;
   }
 
   a {
@@ -227,7 +230,7 @@
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: $type-size-3;
     text-decoration: none;
 
     &:hover {
