@@ -187,6 +187,10 @@
     &:hover {
       color: $masthead-link-color-hover;
     }
+
+    &:focus {
+      outline: none;
+    }
   }
 
   button {
@@ -204,13 +208,15 @@
   .visible-links {
     display: table;
 
+    @include breakpoint($large) {
+      @include span(10 of 12 last);
+    }
+
     li {
-      display: table-cell;
+      display: inline-block;
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
-
         a {
           margin-left: 0;
         }

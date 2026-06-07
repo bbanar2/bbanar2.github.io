@@ -42,6 +42,27 @@
 
 /* Custom styles */
 
+.tag-group {
+  margin-bottom: 0.6em;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 14px;
+  margin: 4px 3px;
+  border-radius: 15px;
+  font-size: 0.82em;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.tag--foundations,
+.tag--applied,
+.tag--vision {
+  background: #e8edf2;
+  color: #374151;
+}
+
 details {
   margin-top: 1.5em;
 

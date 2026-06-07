@@ -38,16 +38,22 @@
     padding: 0;
     clear: both;
     list-style-type: none;
+    text-align: left;
   }
 }
 
 .masthead__menu-item {
-  display: block;
+  display: inline-block;
   list-style-type: none;
   white-space: nowrap;
 
   &--lg {
     padding-right: 2em;
     font-weight: 700;
+  }
+
+  &--active a {
+    font-weight: 600;
+    color: $link-color;
   }
 }
