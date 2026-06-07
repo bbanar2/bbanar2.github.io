@@ -79,8 +79,9 @@ details {
     }
 
     &::before {
-      content: "▸ ";
+      content: "▸";
       display: inline-block;
+      margin-right: 0.4em;
       transition: transform 0.2s ease;
     }
 
