@@ -28,15 +28,14 @@ layout: compress
     {% include scripts.html %}
 
     <script>
-      // Custom disclosure (button + panel) instead of native <details>, which
-      // has an iOS Safari reload quirk requiring two taps. A button toggles
-      // reliably on a single tap on every load/reload.
+      /* Custom disclosure (button + panel) instead of native <details>, which has an iOS Safari reload quirk requiring two taps. Block comments only — line comments break when HTML is compressed in production. */
       document.querySelectorAll('.disclosure').forEach(function (btn) {
         var panel = document.getElementById(btn.getAttribute('aria-controls'));
+        if (!panel) return;
         btn.addEventListener('click', function () {
           var isOpen = btn.getAttribute('aria-expanded') === 'true';
           btn.setAttribute('aria-expanded', String(!isOpen));
-          if (panel) panel.hidden = isOpen;
+          panel.hidden = isOpen;
         });
       });
     </script>
