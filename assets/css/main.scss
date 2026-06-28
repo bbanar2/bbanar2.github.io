@@ -82,47 +82,47 @@ button {
   color: #374151;
 }
 
-details {
+.disclosure {
+  display: block;
+  width: fit-content;
   margin-top: 1.5em;
+  padding: 0.5em 0;
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: inherit;
+  font-size: 1.05em;
+  font-weight: 700;
+  text-align: left;
+  color: $link-color;
+  cursor: pointer;
+  transition: color 0.2s ease;
 
-  summary {
-    width: fit-content;
-    cursor: pointer;
-    color: $link-color;
-    font-size: 1.05em;
-    padding: 0.5em 0;
-    transition: color 0.2s ease;
-    list-style: none;
-
-    &::-webkit-details-marker {
-      display: none;
-    }
-
-    &::before {
-      content: "▸";
-      display: inline-block;
-      margin-right: 0.4em;
-      transition: transform 0.2s ease;
-    }
-
-    @media (hover: hover) {
-      &:hover {
-        color: $link-color-hover;
-      }
-    }
+  &::before {
+    content: "▸";
+    display: inline-block;
+    margin-right: 0.4em;
+    transition: transform 0.2s ease;
   }
 
-  &[open] summary::before {
+  &[aria-expanded="true"]::before {
     transform: rotate(90deg);
   }
 
-  &[open] summary {
+  &[aria-expanded="true"] {
     margin-bottom: 0.6em;
   }
 
-  > *:not(summary) {
-    animation: fadeIn 0.3s ease;
+  @media (hover: hover) {
+    &:hover {
+      color: $link-color-hover;
+    }
   }
+}
+
+.disclosure-panel > * {
+  animation: fadeIn 0.3s ease;
 }
 
 @keyframes fadeIn {

@@ -28,33 +28,15 @@ layout: compress
     {% include scripts.html %}
 
     <script>
-      // iOS Safari eats the first `click` after some page loads/reloads, so a
-      // native <details> needs two taps. `touchend` always fires on the first
-      // tap, so we toggle on that for touch and on `click` for mouse. A flag
-      // stops the synthesized click from double-toggling. The [open] attribute
-      // still drives all the CSS animations unchanged.
-      document.querySelectorAll('details > summary').forEach(function (summary) {
-        var details = summary.parentNode;
-        var moved = false;
-        var justToggled = false;
-
-        function toggle() {
-          details.open = !details.open;
-        }
-
-        summary.addEventListener('touchstart', function () { moved = false; }, { passive: true });
-        summary.addEventListener('touchmove', function () { moved = true; }, { passive: true });
-        summary.addEventListener('touchend', function (e) {
-          if (moved) return;            // it was a scroll, not a tap
-          e.preventDefault();           // suppress the synthesized click
-          toggle();
-          justToggled = true;
-          setTimeout(function () { justToggled = false; }, 400);
-        });
-        summary.addEventListener('click', function (e) {
-          e.preventDefault();           // cancel the finicky native toggle
-          if (justToggled) return;      // touchend already handled this tap
-          toggle();
+      // Custom disclosure (button + panel) instead of native <details>, which
+      // has an iOS Safari reload quirk requiring two taps. A button toggles
+      // reliably on a single tap on every load/reload.
+      document.querySelectorAll('.disclosure').forEach(function (btn) {
+        var panel = document.getElementById(btn.getAttribute('aria-controls'));
+        btn.addEventListener('click', function () {
+          var isOpen = btn.getAttribute('aria-expanded') === 'true';
+          btn.setAttribute('aria-expanded', String(!isOpen));
+          if (panel) panel.hidden = isOpen;
         });
       });
     </script>

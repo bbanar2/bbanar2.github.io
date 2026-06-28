@@ -17,8 +17,11 @@ Previously, I conducted research at <a target="_blank" rel="noopener noreferrer"
 
 I am fundamentally interested in the nature of creativity and creative intelligence through the lenses of information theory, optimization and generative modelling.
 
-<details>
-<summary><strong>Research & Background</strong></summary>
+<div>
+<button type="button" class="disclosure" aria-expanded="false" aria-controls="research-bg">Research &amp; Background</button>
+</div>
+
+<div class="disclosure-panel" id="research-bg" hidden>
 
 <p>My doctoral research, supervised by <a target="_blank" rel="noopener noreferrer" href="https://scholar.google.com/citations?user=L6GPVfcAAAAJ">Simon Colton</a>, focused on "Composing Contemporary Classical Music Using Generative Deep Learning", where I enhanced both machine and human creativity by empowering machines for creative decision-making, while also exploring new aesthetics and challenging entrenched practices in deep learning.</p>
 
@@ -39,4 +42,4 @@ I am fundamentally interested in the nature of creativity and creative intellige
 
 <p>An interesting fact :) - My academic family tree follows as <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Alan_Bundy">Alan Bundy</a>, <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Reuben_Goodstein">Reuben Goodstein</a>, <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Ludwig_Wittgenstein">Ludwig Wittgenstein</a> and <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Bertrand_Russell">Bertrand Russell</a>!</p>
 
-</details>
+</div>
