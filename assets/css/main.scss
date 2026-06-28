@@ -110,10 +110,6 @@ details {
         color: $link-color-hover;
       }
     }
-
-    &:active {
-      color: $link-color-hover;
-    }
   }
 
   &[open] summary::before {
