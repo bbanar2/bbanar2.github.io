@@ -27,5 +27,18 @@ layout: compress
 
     {% include scripts.html %}
 
+    <script>
+      // iOS Safari can require two taps to toggle native <details>.
+      // Take over the toggle on click so the first tap works; the [open]
+      // attribute still drives all the CSS animations unchanged.
+      document.querySelectorAll('details > summary').forEach(function (summary) {
+        summary.addEventListener('click', function (e) {
+          e.preventDefault();
+          var d = summary.parentNode;
+          d.open = !d.open;
+        });
+      });
+    </script>
+
   </body>
 </html>

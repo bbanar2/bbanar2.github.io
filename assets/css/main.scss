@@ -86,6 +86,7 @@ details {
   margin-top: 1.5em;
 
   summary {
+    width: fit-content;
     cursor: pointer;
     color: $link-color;
     font-size: 1.05em;
@@ -108,6 +109,10 @@ details {
       &:hover {
         color: $link-color-hover;
       }
+    }
+
+    &:active {
+      color: $link-color-hover;
     }
   }
 
