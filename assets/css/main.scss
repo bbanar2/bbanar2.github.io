@@ -47,6 +47,13 @@ a:focus:not(:focus-visible) {
   outline: none;
 }
 
+// Remove the mobile tap-highlight box (grey on iOS, blue on Chrome) on tap
+a,
+summary,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .take-divider {
   border: 0;
   border-top: 1px solid #e2e6ea;
@@ -79,7 +86,7 @@ details {
   margin-top: 1.5em;
 
   summary {
-    display: inline-block;
+    width: fit-content;
     cursor: pointer;
     color: $link-color;
     font-size: 1.05em;
@@ -107,6 +114,10 @@ details {
 
   &[open] summary::before {
     transform: rotate(90deg);
+  }
+
+  &[open] summary {
+    margin-bottom: 0.6em;
   }
 
   > *:not(summary) {
