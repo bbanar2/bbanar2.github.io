@@ -42,6 +42,11 @@
 
 /* Custom styles */
 
+// Show focus ring only for keyboard navigation, not mouse clicks
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
 .take-divider {
   border: 0;
   border-top: 1px solid #e2e6ea;
@@ -74,6 +79,7 @@ details {
   margin-top: 1.5em;
 
   summary {
+    display: inline-block;
     cursor: pointer;
     color: $link-color;
     font-size: 1.05em;
@@ -92,8 +98,10 @@ details {
       transition: transform 0.2s ease;
     }
 
-    &:hover {
-      color: $link-color-hover;
+    @media (hover: hover) {
+      &:hover {
+        color: $link-color-hover;
+      }
     }
   }
 

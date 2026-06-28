@@ -179,11 +179,17 @@
     color: #4a6fa5;
     font-size: 1.4em;
     text-decoration: none;
-    transition: color 0.2s ease;
+
+    i {
+      transition: color 0.2s ease;
+    }
 
     &:hover {
-      color: #2d3436;
       text-decoration: none;
+    }
+
+    &:hover i {
+      color: #2d3436;
     }
   }
 }
