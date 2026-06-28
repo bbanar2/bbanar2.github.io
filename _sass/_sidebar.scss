@@ -182,11 +182,17 @@
       transition: color 0.2s ease;
     }
 
-    &:hover {
-      text-decoration: none;
+    @media (hover: hover) {
+      &:hover {
+        text-decoration: none;
+      }
+
+      &:hover i {
+        color: #2d3436;
+      }
     }
 
-    &:hover i {
+    &:active i {
       color: #2d3436;
     }
   }

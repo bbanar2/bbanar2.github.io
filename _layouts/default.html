@@ -11,7 +11,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body ontouchstart="">
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
@@ -26,21 +26,6 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-
-    <script>
-      // Fix iOS Safari requiring two taps to open <details>: toggle on touchend
-      document.querySelectorAll('details > summary').forEach(function (summary) {
-        var moved = false;
-        summary.addEventListener('touchstart', function () { moved = false; }, { passive: true });
-        summary.addEventListener('touchmove', function () { moved = true; }, { passive: true });
-        summary.addEventListener('touchend', function (e) {
-          if (moved) return;            // ignore taps that were actually scrolls
-          e.preventDefault();           // stop the synthesized click (prevents double-toggle)
-          var details = summary.parentNode;
-          details.open = !details.open;
-        });
-      });
-    </script>
 
   </body>
 </html>
